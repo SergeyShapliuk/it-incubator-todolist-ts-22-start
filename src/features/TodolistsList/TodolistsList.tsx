@@ -7,7 +7,7 @@ import {AddItemForm, AddItemFormSubmitHelperType} from '../../components/AddItem
 import {Todolist} from './Todolist/Todolist'
 import {Redirect} from 'react-router-dom'
 import {selectIsLoggedIn} from '../Auth/selectors'
-import {tasksActions, todolistsActions} from './index'
+import {todolistsActions} from './index'
 import {AppRootStateType} from '../../utils/types'
 import {useActions, useAppDispatch} from '../../utils/redux-utils'
 
