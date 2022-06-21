@@ -10,9 +10,9 @@ import {BrowserRouter} from 'react-router-dom'
 const rerenderEntireTree = () => {
     ReactDOM.render(
         <Provider store={store}>
-            <BrowserRouter>
+            <HashRouter>
                 <App/>
-            </BrowserRouter>
+            </HashRouter>
         </Provider>, document.getElementById('root'))
 }
 
